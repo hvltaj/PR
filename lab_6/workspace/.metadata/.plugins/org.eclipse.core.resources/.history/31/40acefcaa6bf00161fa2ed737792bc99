@@ -1,0 +1,25 @@
+
+public class Thread1 extends Thread {
+	private char searchChar;
+	private char[][] image;
+	private int count, threadNumber;
+	
+	public Thread1(int thNumber, char s, char[][] tab) {
+		searchChar = s;
+		image = tab;
+		count = 0;
+		
+	}
+	
+	@Override
+	public void run() {
+		for (char[] cs : image) {
+			for (char c : cs) {
+				if (c == searchChar)
+					++count;
+			}
+		}
+		
+		System.out.println("Thread " + (s-33) + "");
+	}
+}

@@ -1,0 +1,26 @@
+
+public class Thread2 extends Thread {
+	private char searchCharFrom;
+	private Obraz image;
+	private int count, numOfCharacters;
+	
+	public Thread2(char start, int numOfChars, Obraz img) {
+		searchCharFrom = start;
+		image = img;
+		count = 0;
+		numOfCharacters = numOfChars;
+	}
+	
+	@Override
+	public void run() {
+		count = image.calculate_histogram_for_character(searchCharFrom);
+		
+		String hist = "";
+		for (int i = 0; i < count/10; ++i)
+			hist += "=";
+		
+		System.out.println("Thread " + (searchCharFrom - 33) + ": " + searchCharFrom
+				+ " " + hist + " " + count);
+		
+	}
+}

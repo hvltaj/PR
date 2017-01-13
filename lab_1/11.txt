@@ -1,0 +1,58 @@
+debug
+
+Czas wykonania 100000 operacji wejscia/wyjscia: 
+czas standardowy = 0.023872
+czas CPU         = 0.020000
+czas zegarowy    = 1.195137
+Wynik operacji arytmetycznych: 1.210343
+Czas wykonania 100000 operacji arytmetycznych: 
+czas CPU         = 0.001000
+czas zegarowy    = 0.000744
+
+Czas wykonania 100000 operacji wejscia/wyjscia: 
+czas standardowy = 0.035569
+czas CPU         = 0.029000
+czas zegarowy    = 1.083576
+Wynik operacji arytmetycznych: 1.210343
+Czas wykonania 100000 operacji arytmetycznych: 
+czas CPU         = 0.001000
+czas zegarowy    = 0.001184
+
+Czas wykonania 100000 operacji wejscia/wyjscia: 
+czas standardowy = 0.034569
+czas CPU         = 0.028000
+czas zegarowy    = 1.112810
+Wynik operacji arytmetycznych: 1.210343
+Czas wykonania 100000 operacji arytmetycznych: 
+czas CPU         = 0.001000
+czas zegarowy    = 0.001071
+
+
+O3
+
+Czas wykonania 100000 operacji wejscia/wyjscia: 
+czas standardowy = 0.036385
+czas CPU         = 0.027000
+czas zegarowy    = 1.111331
+Wynik operacji arytmetycznych: 1.210343
+Czas wykonania 100000 operacji arytmetycznych: 
+czas CPU         = 0.000000
+czas zegarowy    = 0.000361
+
+Czas wykonania 100000 operacji wejscia/wyjscia: 
+czas standardowy = 0.035995
+czas CPU         = 0.030000
+czas zegarowy    = 1.143712
+Wynik operacji arytmetycznych: 1.210343
+Czas wykonania 100000 operacji arytmetycznych: 
+czas CPU         = 0.000000
+czas zegarowy    = 0.000672
+
+Czas wykonania 100000 operacji wejscia/wyjscia: 
+czas standardowy = 0.036486
+czas CPU         = 0.033000
+czas zegarowy    = 1.107738
+Wynik operacji arytmetycznych: 1.210343
+Czas wykonania 100000 operacji arytmetycznych: 
+czas CPU         = 0.001000
+czas zegarowy    = 0.000676

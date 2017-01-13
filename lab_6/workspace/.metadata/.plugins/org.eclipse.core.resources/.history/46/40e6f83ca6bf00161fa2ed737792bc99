@@ -1,0 +1,19 @@
+
+public class Thread1 extends Thread {
+	private char searchChar;
+	private char[][] image;
+	
+	public Thread1(char s, char[][] tab) {
+		searchChar = s;
+		image = tab;
+	}
+	
+	@Override
+	public void run() {
+		for (char[] cs : image) {
+			for (char c : cs) {
+				
+			}
+		}
+	}
+}

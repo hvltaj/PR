@@ -1,0 +1,14 @@
+
+public class Thread1 extends Thread {
+	private char searchChar;
+	
+	public Thread1(char s) {
+		searchChar = s;
+		
+	}
+	
+	@Override
+	public void run() {
+		
+	}
+}
